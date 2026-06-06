@@ -64,10 +64,7 @@ body {
   margin-top: -2rem;
 }
 
-.cake-bg {
-  position: absolute;
-  width: 300px;
-}
+
 
 .cake {
   position: absolute;
@@ -90,11 +87,17 @@ body {
   font-style: italic;
   text-align: center;
 }
+
 .signature {
-  display: none;
+  font-size: 0.8rem;
+  color: #051fc2;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 1rem;
 }
 
-// Confetti
+/* Confetti */
 .confetti-container {
   position: fixed;
   top: 0;
